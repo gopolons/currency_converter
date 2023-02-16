@@ -1,0 +1,26 @@
+/* 
+  Localizable.strings
+  CurrencyConverter
+
+  Created by Georgy Polonskiy on 10/02/2023.
+  
+*/
+
+"ui.button.ok" = "Okay";
+"ui.button.submit" = "Submit";
+
+"ui.alert.title" = "Conversion complete";
+"ui.alert.body1" = "You have converted ";
+"ui.alert.body2" = " to ";
+"ui.alert.body3" = " Commission fee - ";
+
+"converter.navbar.title" = "Currency converter";
+
+"converter.section.exchange.header" = "CURRENCY EXCHANGE";
+"converter.section.balances.header" = "MY BALANCES";
+
+"converter.currency.sell" = "Sell";
+"converter.currency.buy" = "Receive";
+
+"converter.footer.commission" = "Your commission is ";
+

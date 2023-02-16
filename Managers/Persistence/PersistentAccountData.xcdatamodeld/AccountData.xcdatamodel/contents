@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="19206" systemVersion="21A559" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+    <entity name="CoreCurrencyWallet" representedClassName="CoreCurrencyWallet" syncable="YES" codeGenerationType="class">
+        <attribute name="availableAmount" optional="YES" attributeType="Double" defaultValueString="0.0" usesScalarValueType="YES"/>
+        <attribute name="currency" optional="YES" attributeType="String"/>
+    </entity>
+    <entity name="CoreOperationHistory" representedClassName="CoreOperationHistory" syncable="YES" codeGenerationType="class">
+        <attribute name="buyAmount" optional="YES" attributeType="Double" defaultValueString="0.0" usesScalarValueType="YES"/>
+        <attribute name="buyCurrency" optional="YES" attributeType="String"/>
+        <attribute name="commission" optional="YES" attributeType="Double" defaultValueString="0.0" usesScalarValueType="YES"/>
+        <attribute name="date" optional="YES" attributeType="Date" usesScalarValueType="NO"/>
+        <attribute name="sellAmount" optional="YES" attributeType="Double" defaultValueString="0.0" usesScalarValueType="YES"/>
+        <attribute name="sellCurrency" optional="YES" attributeType="String"/>
+    </entity>
+    <elements>
+        <element name="CoreCurrencyWallet" positionX="-690.59375" positionY="304.13671875" width="76.42578125" height="59"/>
+        <element name="CoreOperationHistory" positionX="-389.35546875" positionY="258.92578125" width="128" height="119"/>
+    </elements>
+</model>
